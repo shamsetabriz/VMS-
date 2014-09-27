@@ -19,7 +19,7 @@ namespace WebVMSMVCApp.Models
         public string Address { set; get; }
         public double Experience { set; get; }
         public DateTime JoiningDate { set; get; }
-        public CurrentStatus DriverStatus { set; get; }
+        public CurrentStatus Status { set; get; }
         public int CarId { set; get; }
         public virtual  ICollection<Car>  Cars{ set; get; }
 
